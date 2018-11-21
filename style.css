@@ -16,6 +16,13 @@ body{
   background-color: black;
 }
 
+.beeBlue{
+  color: #02a3c2;
+}
+.beeWhite{
+  color: #fff;
+}
+
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -59,7 +66,10 @@ figure {
     padding: 1rem;
 }
 
-
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
 
 
 
